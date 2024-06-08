@@ -1,10 +1,5 @@
 # Meshtastic Python
 
-[![codecov](https://codecov.io/gh/meshtastic/python/branch/master/graph/badge.svg?token=TIWPJL73KV)](https://codecov.io/gh/meshtastic/python)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/meshtastic)
-[![CI](https://img.shields.io/github/actions/workflow/status/meshtastic/python/ci.yml?branch=master&label=actions&logo=github&color=yellow)](https://github.com/meshtastic/python/actions/workflows/ci.yml)
-[![CLA assistant](https://cla-assistant.io/readme/badge/meshtastic/python)](https://cla-assistant.io/meshtastic/python)
-[![Fiscal Contributors](https://opencollective.com/meshtastic/tiers/badge.svg?label=Fiscal%20Contributors&color=deeppink)](https://opencollective.com/meshtastic/)
 
 ## Overview
 
@@ -32,15 +27,18 @@ This should always be considered a list in progress and flux -- inclusion doesn'
 * async-friendliness
 * CLI completeness & consistency
   * the CLI should support all features of the firmware
+  * 
   * there should be a consistent output format available for shell scripting
 * CLI input validation & documentation
   * what arguments and options are compatible & incompatible with one another?
   * can the options be restructured in a way that is more self-documenting?
+  * 
   * pubsub events should be documented clearly
 * helpers for third-party code
   * it should be easy to write a script that supports similar options to the CLI so many tools support the same ways of connecting to nodes
 * data storage & processing
   * there should be a standardized way of recording packets for later use, debugging, etc.
+  * 
   * a persistence layer could also keep track of nodes beyond nodedb, as the apps do
   * a sqlite database schema and tools for writing to it may be a good starting point
   * enable maps, charts, visualizations
