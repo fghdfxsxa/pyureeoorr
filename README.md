@@ -5,6 +5,7 @@
 
 A Python client for use with Meshtastic devices.
 This small library (and example application) provides an easy API for sending and receiving messages over mesh radios.
+
 It also provides access to any of the operations/data available in the device user interface or the Android application.
 Events are delivered using a publish-subscribe model, and you can subscribe to only the message types you are interested in.
 
@@ -29,6 +30,7 @@ This should always be considered a list in progress and flux -- inclusion doesn'
   * the CLI should support all features of the firmware
   * 
   * there should be a consistent output format available for shell scripting
+  * 
 * CLI input validation & documentation
   * what arguments and options are compatible & incompatible with one another?
   * can the options be restructured in a way that is more self-documenting?
@@ -40,6 +42,7 @@ This should always be considered a list in progress and flux -- inclusion doesn'
   * there should be a standardized way of recording packets for later use, debugging, etc.
   * 
   * a persistence layer could also keep track of nodes beyond nodedb, as the apps do
+  * 
   * a sqlite database schema and tools for writing to it may be a good starting point
   * enable maps, charts, visualizations
 
